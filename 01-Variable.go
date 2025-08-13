@@ -47,4 +47,26 @@ func main() {
 	var letter rune = 'A'
 	fmt.Println("Letter:", string(letter))
 	fmt.Println("Unicode of Letter:", letter)
+
+	fmt.Println("\n")
+	// Multiple variable declaration
+	fmt.Println("======Multiple Variable Declaration======")
+	var (
+		name    string = "John Doe"
+		country string = "USA"
+		year    int    = 2023
+	)
+	fmt.Println("Name:", name)
+	fmt.Println("Country:", country)
+	fmt.Println("Year:", year)
+
+	fmt.Println("\n")
+
+	// Short variable declaration
+	fmt.Println("======Short Variable Declaration======")
+	var x int
+	x = 4
+	fmt.Println("Value of x:", x)
+	x = 5
+	fmt.Println("Updated value of x:", x)
 }
